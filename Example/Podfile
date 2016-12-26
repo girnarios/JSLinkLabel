@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSLinkLabel_Example' do
+  pod 'JSLinkLabel', :path => '../'
+
+  target 'JSLinkLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
