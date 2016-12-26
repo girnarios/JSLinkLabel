@@ -1,0 +1,6 @@
+framework module Pods_JSLinkLabel_Tests {
+  umbrella header "Pods-JSLinkLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

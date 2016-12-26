@@ -1,0 +1,16 @@
+PODS:
+  - JSLinkLabel (0.1.0)
+
+DEPENDENCIES:
+  - JSLinkLabel (from `../`)
+
+EXTERNAL SOURCES:
+  JSLinkLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JSLinkLabel: 34029e4f71a9a8b5bd34ba02fc8f73ccbdd25947
+
+PODFILE CHECKSUM: 362b36df39d2c182b6661d7e796d78457dcf1f93
+
+COCOAPODS: 1.0.1

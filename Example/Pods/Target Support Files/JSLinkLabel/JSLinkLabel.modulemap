@@ -1,0 +1,6 @@
+framework module JSLinkLabel {
+  umbrella header "JSLinkLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
