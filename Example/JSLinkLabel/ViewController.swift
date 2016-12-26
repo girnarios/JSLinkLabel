@@ -7,12 +7,18 @@
 //
 
 import UIKit
-
+import JSLinkLabel
 class ViewController: UIViewController {
-
+    let blinkLabel = JSLinkLabel()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        blinkingLabel.text = "I blink!"
+        blinkingLabel.font = UIFont.systemFontOfSize(20)
+        view.addSubview(blinkingLabel)
+        blinkingLabel.startBlinking()
+        isBlinking = true
+
     }
 
     override func didReceiveMemoryWarning() {

@@ -16,7 +16,7 @@
 		ABF0BA136291A8F0A68BD698447F9FB0 /* JSLinkLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15736DA17F190B535E7AE51EE798F2D5 /* JSLinkLabel-dummy.m */; };
 		B64D801FAF00F7B12D2393178BA9B53A /* Pods-JSLinkLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 391EC25616125B4960FA3E6BC0AFB6B0 /* Pods-JSLinkLabel_Tests-dummy.m */; };
 		BB6CF56852926F48B64FC427E15D185D /* Pods-JSLinkLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D166FBD3CA35A2E5F9BD9485D8C0FF67 /* Pods-JSLinkLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEC20D3410EE884BDBE24C02E81EAE74 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B8E8FDA9BF56C026B7F5E0A94C261 /* ReplaceMe.swift */; };
+		BEC20D3410EE884BDBE24C02E81EAE74 /* JSLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B8E8FDA9BF56C026B7F5E0A94C261 /* JSLinkLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		52B47D2FCEEAF7AD418F5AB4F4E37F41 /* JSLinkLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSLinkLabel.xcconfig; sourceTree = "<group>"; };
 		58EDDFDAEF62BC268F3589612E1AE7E4 /* Pods-JSLinkLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLinkLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		59C2D58662BE2C8E9CCCD78692107536 /* Pods_JSLinkLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSLinkLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C7B8E8FDA9BF56C026B7F5E0A94C261 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		7C7B8E8FDA9BF56C026B7F5E0A94C261 /* JSLinkLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSLinkLabel.swift; sourceTree = "<group>"; };
 		8286A08E48B133819F3B7AC60FA94773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ABA9FD0F1580745F447D4A88701E512 /* Pods_JSLinkLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSLinkLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -217,7 +217,7 @@
 		F58F6F44C6E1F8B8CAB4B881499C1EF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7C7B8E8FDA9BF56C026B7F5E0A94C261 /* ReplaceMe.swift */,
+				7C7B8E8FDA9BF56C026B7F5E0A94C261 /* JSLinkLabel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -362,7 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF0BA136291A8F0A68BD698447F9FB0 /* JSLinkLabel-dummy.m in Sources */,
-				BEC20D3410EE884BDBE24C02E81EAE74 /* ReplaceMe.swift in Sources */,
+				BEC20D3410EE884BDBE24C02E81EAE74 /* JSLinkLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
